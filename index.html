@@ -2,20 +2,18 @@
 <html>
 
 <head>
-  <title>AngularJS Tutorials</title>
-  <link rel="stylesheet" href="vendor/foundation/foundation.min.css">
-</head>
+  <title>AngularJS Tutorials</title></head>
 <body ng-app='myApp'>
 
-   <div ng-controller="MyCtrl">
+   <div ng-controller="myCtrl">
     <ul>
-        <li ng-repeat="result in result">
+        <li ng-repeat="result in results">
             {{result.title.$t}}
         </li>
     </ul>
 </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="/js/app.js"></script>
 
 
 </body> 
