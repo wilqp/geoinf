@@ -7,12 +7,16 @@
 </head>
 <body ng-app='myApp'>
 
-    <input type="text" ng-model="data.message">
- 
-
+   <div ng-controller="MyCtrl">
+    <ul>
+        <li ng-repeat="result in result">
+            {{result.title.$t}}
+        </li>
+    </ul>
+</div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 
 
-</body>
-</html>
+</body> 
+</html> 
